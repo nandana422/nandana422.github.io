@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nandana KS | Profile</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-cyan-50 to-purple-100 min-h-screen flex items-center justify-center p-4">
+
+    <!-- Profile Card Container -->
+    <div class="bg-white p-8 rounded-2xl shadow-2xl max-w-2xl w-full transform transition-transform duration-300 hover:scale-105">
+        
+        <!-- Header Section -->
+        <header class="text-center mb-8">
+            <h1 class="text-5xl font-extrabold text-violet-600 tracking-tight">Nandana KS</h1>
+            <p class="text-xl text-gray-600 mt-2">B.Tech CSE Student</p>
+        </header>
+
+        <!-- Divider -->
+        <hr class="border-gray-200 mb-8">
+
+        <!-- Main Content Sections -->
+        <div class="space-y-6">
+
+            <!-- Introduction Section -->
+            <div class="bg-violet-50 p-6 rounded-xl border border-violet-200">
+                <h2 class="text-2xl font-semibold text-violet-800 mb-2">👋 Introduction</h2>
+                <p class="text-gray-700 leading-relaxed">
+                    Hello! I'm Nandana KS, a dedicated Computer Science and Engineering student from **Thrissur, Kerala**. I am passionate about diving deep into the world of technology and continuous learning.
+                </p>
+            </div>
+            
+            <!-- Education Section -->
+            <div class="bg-cyan-50 p-6 rounded-xl border border-cyan-200">
+                <h2 class="text-2xl font-semibold text-cyan-800 mb-2">🎓 Education & Background</h2>
+                <ul class="text-gray-700 space-y-2">
+                    <li class="flex items-start">
+                        <span class="font-bold w-32 flex-shrink-0 text-gray-900">Program:</span>
+                        <span>B.Tech - CSE</span>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="font-bold w-32 flex-shrink-0 text-gray-900">Institution:</span>
+                        <span>Vidya Academy of Science and Technology</span>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="font-bold w-32 flex-shrink-0 text-gray-900">Location:</span>
+                        <span>Thrissur, Kerala</span>
+                    </li>
+                </ul>
+            </div>
+            
+            <!-- Aspirations & Interests Section -->
+            <div class="bg-fuchsia-50 p-6 rounded-xl border border-fuchsia-200">
+                <h2 class="text-2xl font-semibold text-fuchsia-800 mb-2">💡 Aspirations & Interests</h2>
+                <blockquote class="italic text-gray-600 border-l-4 border-violet-500 pl-4 mb-4">
+                    "My aim is not just to acquire a job but to acquire skills and master it."
+                </blockquote>
+                <p class="text-gray-700 leading-relaxed">
+                    I believe in **mastery over a mere job title**. My goal is to continually acquire and perfect skills in computer engineering. I also have a passion for **biology** and hope to link my studies in Computer Science to that field.
+                </p>
+                <p class="text-gray-700 leading-relaxed mt-2">
+                    I find immense joy in **reading**, whether it's through engaging books or insightful articles, as it fuels my curiosity and knowledge base.
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
